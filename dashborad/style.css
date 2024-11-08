@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headersec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headersec h1{
+        color: green;
+        margin-top: 19px;
+        margin-bottom: 20px;
+}
+
+.fetch{
+    background-color: green;
+    padding: 8px 8px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+
+#logout{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: #28a745;
+    color: white;
+    transition: background-color ease-in 0.3s;
+
+}
+#logout:hover{
+    padding: 20px;
+    box-shadow: inset;
+    background-color: red;
+}
+
+.data{
+    background-color: grey;
+}
